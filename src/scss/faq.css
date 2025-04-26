@@ -6,6 +6,7 @@
   background-repeat: no-repeat, no-repeat;
   width: 100%;
   @media screen and (min-width: 1440px) {
+    box-shadow: none;
     background-image: url(../img/faq/faq-wave.png), url(../img/faq/bg_faq.jpg);
   }
 }
@@ -16,6 +17,7 @@
   justify-content: center;
   gap: 40px;
   padding: 60px 16px;
+
   @media screen and (min-width: 1440px) {
     gap: 76px;
     padding: 100px 108px;
