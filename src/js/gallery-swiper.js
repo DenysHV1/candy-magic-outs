@@ -1,6 +1,5 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
-console.log(Swiper);
 
 const swiperGallery = () => {
   new Swiper('.swiper-gallery', {

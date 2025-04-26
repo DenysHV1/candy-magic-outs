@@ -1,4 +1,5 @@
 .how-play {
+  scroll-margin-top: 100px;
   background-image: url(../img/how-play/wave_how-mobile.png),
     url(../img/how-play/bg_how_to_play.jpg);
   background-size: contain, cover;

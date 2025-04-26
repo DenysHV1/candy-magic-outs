@@ -1,4 +1,5 @@
 .gallery {
+  scroll-margin-top: 100px;
   background-image: url(../img/gallery/wave_gallery-mobile.png);
   background-color: #b8e4f0;
   background-size: contain;

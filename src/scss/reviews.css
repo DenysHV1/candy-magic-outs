@@ -1,4 +1,5 @@
 .reviews {
+  scroll-margin-top: 100px;
   background-image: url(../img/reviews/wave_rev-bg.png),
     url(../img/reviews/bg_rev.jpg);
   background-size: contain, cover;
@@ -107,7 +108,7 @@
   @media screen and (min-width: 1440px) {
     left: 512px !important;
   }
-} 
+}
 
 .swiper-button-next {
   border-radius: 50%;

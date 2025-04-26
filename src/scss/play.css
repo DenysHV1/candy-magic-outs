@@ -1,4 +1,5 @@
 .play {
+  scroll-margin-top: 100px;
   background-color: #ffe6d9;
   width: 100%;
   @media screen and (min-width: 1440px) {

@@ -1,4 +1,5 @@
 .faq {
+  scroll-margin-top: 100px;
   background-image: url(../img/faq/wave_faq-mobile.png),
     url(../img/faq/bg_faq.jpg);
   background-size: contain, cover;

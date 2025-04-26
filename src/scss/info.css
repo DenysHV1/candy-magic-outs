@@ -1,4 +1,5 @@
 .info {
+  scroll-margin-top: 100px;
   background-image: url(../img/info/info-wave-mobile.png),
     url(../img/info/info-bg.png);
   background-size: contain, cover;

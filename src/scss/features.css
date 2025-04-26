@@ -1,4 +1,5 @@
 .features {
+  scroll-margin-top: 100px;
   background-image: url(../img/features/wave_features-mobile.png),
     url(../img/features/bg_features.jpg);
   background-size: contain, cover;
