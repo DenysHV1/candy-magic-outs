@@ -6,13 +6,11 @@
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
   width: 100%;
-  margin-bottom: 80px;
   margin-top: 56px;
   @media screen and (min-width: 1440px) {
     background-image: url(../img/hero/wave_vector.png),
       url(../img/hero/hero_pc_bg.jpg);
     margin-top: 64px;
-    margin-bottom: 140px;
     height: 120vh;
   }
 }
