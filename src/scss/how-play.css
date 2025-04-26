@@ -1,21 +1,70 @@
 .how-play {
-  margin-bottom: 80px;
-  scroll-margin-top: 100px;
-  @media (min-width: 1440px) {
-    margin-bottom: 140px;
+  background-image: url(../img/how-play/wave_how-mobile.png),
+    url(../img/how-play/bg_how_to_play.jpg);
+  background-size: contain, cover;
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%;
+  @media screen and (min-width: 1440px) {
+    background-image: url(../img/how-play/how-play-wave.png),
+      url(../img/how-play/bg_how_to_play.jpg);
   }
 }
 
 .how-play_container {
-  padding: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 28px;
-  @media (min-width: 1440px) {
-    padding: 0 80px;
-    gap: 36px;
+  gap: 40px;
+  padding: 60px 16px;
+  @media screen and (min-width: 1440px) {
+    gap: 76px;
+    padding: 100px 16px;
   }
 }
 
+.how-play-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 912px;
+  }
+}
+
+.how-play-item {
+  width: 288px;
+  height: 222px;
+  border-radius: 26px;
+  box-shadow: 8px 8px 20px 0 rgba(53, 53, 53, 0.25);
+  background: #ffe6d9;
+  background-image: url(../img/how-play/text-container.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  padding-top: 26px;
+  padding-bottom: 14px;
+}
+
+.how-play-item > img {
+  height: 118px;
+  max-height: 118px;
+}
+
+.how-play-item > p {
+  line-height: 1.57143;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
