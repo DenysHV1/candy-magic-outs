@@ -1,10 +1,12 @@
 export const cookiePolicy = () => {
   const btnEl1 = document.querySelector('.cookies-accept-js');
   const btnEl2 = document.querySelector('.cookies-decline-js');
-  const modalEl = document.querySelector('.cookies-section');
+  const modalEl = document.querySelector('#cookies-section-js');
 
   if (JSON.parse(localStorage.getItem('candy-magic-status'))) {
-    modalEl.style.display = 'none';
+    if (modalEl) {
+      modalEl.style.display = 'none';
+    }
     return;
   }
 
