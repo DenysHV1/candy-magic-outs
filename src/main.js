@@ -8,4 +8,4 @@ mobileMenu();
 swiperGallery();
 swiperReviews();
 faq();
-// cookiePolicy();
+cookiePolicy();

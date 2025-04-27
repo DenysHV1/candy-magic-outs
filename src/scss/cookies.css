@@ -5,37 +5,39 @@
   transform: translate(-50%);
   z-index: 999;
   width: 100%;
-  background: #ffd700;
+  background: #e9faff;
 }
 
 .cookies-container {
-  padding: 16px 38px 16px 50px;
+  padding: 40px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   @media screen and (min-width: 1440px) {
-    padding: 20px 34px;
+    padding: 40px 108px;
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
 .cookies-text {
-  width: 100%;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 1.57143;
   text-align: center;
   color: #5b2d90;
-  font-family: 'Poppins', sans-serif;
   @media screen and (min-width: 1440px) {
-    font-family: 'Roboto', sans-serif;
-    width: 595px;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 705px;
+    text-align: left;
   }
 }
 
 .cookies-buttons {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,19 +45,28 @@
   gap: 24px;
   @media screen and (min-width: 1440px) {
     flex-direction: row;
-    gap: 26px;
+    justify-content: flex-end;
   }
 }
 
 .cookies-button {
-  width: 295px;
-  height: 78px;
-  border-radius: 40px;
+  width: 100%;
+  height: 56px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121212;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: opacity 300ms ease;
+  @media screen and (min-width: 1440px) {
+    width: 184px;
+    height: 56px;
+  }
 }
 
 .cookies-button:hover {
@@ -63,19 +74,9 @@
 }
 
 .cookies-accept-js {
-  background-color: #5b2d90;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #ffd700;
-  font-family: 'Roboto', sans-serif;
+  background-color: #a9ffcc;
 }
 
 .cookies-decline-js {
-  border: 1px solid #5b2d90;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #5b2d90;
-  font-family: 'Chewy', sans-serif;
+  background-color: #ff735d;
 }
